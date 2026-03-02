@@ -17,22 +17,22 @@ The goal of this project is to demonstrate a strong foundational understanding o
 
 ## 🔬 Lab Breakdown & Highlights
 
-### [Lab 1 & 2: Data Science Foundations & Probability](./L2/)
+### [Lab 1 & 2: Data Science Foundations & Probability](./Labs/L2/L2.ipynb/)
 * **Concepts Explored:** Data manipulation, filtering, and aggregation. Simulated probabilities and analyzed statistical distributions (Uniform, Normal, Binomial) using Python logic and arrays.
 * **Technical Highlights:** Generated histograms to analyze skewed data and compared metric distributions across different demographic groups.
 
-### [Lab 3: Applied Socio-Economic Analysis](./L3/)
+### [Lab 3: Applied Socio-Economic Analysis](./Labs/L3/L3.ipynb/)
 * **Concepts Explored:** Merged multiple real-world datasets (UN Population, Fertility, and Child Mortality) to identify macro-trends. 
 * **Technical Highlights:** Built custom functions to visualize longitudinal data and generated scatter plots to analyze the correlation between global fertility rates and child mortality over a 50-year span.
 
-### [Lab 4: Linear Regression](./L4/)
+### [Lab 4: Linear Regression](./Labs/L4/L4.ipynb/)
 * **Concepts Explored:** Predictive modeling using historical family height data (Galton's dataset). 
 * **Technical Highlights:** Instead of using black-box libraries, I implemented functions to calculate standard deviation, means, correlation coefficients ($r$), and standard units (SU) from scratch. Used these mathematical foundations to manually calculate the slope and y-intercept for a linear regression line to predict continuous outcomes.
 * **Visuals:**
 * <img width="1137" height="449" alt="image" src="https://github.com/user-attachments/assets/3829d61e-5b20-4664-a555-d487aa4df192" />
 
 
-### [Lab 5: Logistic Regression & ML Pipelines](./L5/)
+### [Lab 5: Logistic Regression & ML Pipelines](./Labs/L5/L5.ipynb/)
 * **Concepts Explored:** Categorical classification using the Iris dataset. 
 * **Technical Highlights:** Split data into training and testing sets to prevent model overfitting. Built a `scikit-learn` **Pipeline** integrating `StandardScaler` for feature normalization and `LogisticRegression` for classification. Evaluated model performance using a Confusion Matrix and a comprehensive Classification Report (Precision, Recall, F1-score).
 * **Visuals:**
