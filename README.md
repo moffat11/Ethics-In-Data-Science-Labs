@@ -12,6 +12,8 @@ The goal of this project is to demonstrate a strong foundational understanding o
 * **Machine Learning:** `scikit-learn` (Pipelines, Logistic Regression, Linear Regression, Data Scaling)
 * **Model Evaluation:** Confusion Matrices, Precision/Recall, F1-Scores
 * **Environment:** Jupyter Notebooks (Syzygy)
+* **Data Privacy & Ethics:** Randomized Response Mechanisms, Data Obfuscation
+* **Algorithmic Fairness:** Demographic Parity, Equal Opportunity, Equalized Odds
 
 ---
 
@@ -38,6 +40,25 @@ The goal of this project is to demonstrate a strong foundational understanding o
 * **Visuals:**
 * <img width="641" height="545" alt="image" src="https://github.com/user-attachments/assets/8b378e95-bcee-4630-a908-c5621a4212df" />
 * <img width="440" height="185" alt="image" src="https://github.com/user-attachments/assets/ad73bf28-8b74-4e8a-bffa-7dfaae56085e" />
+
+### Lab 6: Randomized Response & Data Privacy
+* **Concepts Explored:** Data privacy, randomized response mechanisms, and obfuscation. Simulated how researchers can collect sensitive data (e.g., income brackets) while maintaining individual anonymity.
+* **Technical Highlights:** Implemented custom Python algorithms to add statistical noise to the `adult.csv` dataset using coin-flip probability mechanisms. Calculated estimated true population statistics from the obfuscated responses and analyzed the relative error across different privacy bias parameters.
+* **Visuals:** [<img width="1217" height="47" alt="image" src="https://github.com/user-attachments/assets/7837a782-e0ab-44c6-85e8-c8ebfd98713b" />
+
+]
+
+### Assignment 1: Algorithmic Fairness & Bias Analysis
+* **Concepts Explored:** Algorithmic fairness, bias detection, and the ethical dangers of relying solely on overall model accuracy in imbalanced datasets.
+* **Technical Highlights:** * Conducted Exploratory Data Analysis (EDA) on an HR employee attrition dataset to identify historical demographic imbalances regarding Age and Gender.
+  * Built a predictive `LogisticRegression` pipeline using `ColumnTransformer` and `OneHotEncoder` for categorical variables.
+  * Wrote custom functions from scratch to calculate fairness metrics including **Demographic Parity**, **Equal Opportunity (TPR)**, and **Equalized Odds (FPR)**. 
+  * Mathematically proved that despite achieving 75%+ overall accuracy, the machine learning model developed systemic biases, generating disproportionately high False Positive rates for female and younger employees.
+* **Visuals:** [<img width="1196" height="496" alt="image" src="https://github.com/user-attachments/assets/ccb8336a-6271-4c38-9c64-e772f5dde21f" />
+
+]
+[<img width="1187" height="494" alt="image" src="https://github.com/user-attachments/assets/3f700955-8444-427a-bff7-f50ca998ab74" />
+]
 
 
 
