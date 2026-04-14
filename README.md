@@ -59,7 +59,15 @@ The goal of this project is to demonstrate a strong foundational understanding o
 ]
 [<img width="1187" height="494" alt="image" src="https://github.com/user-attachments/assets/3f700955-8444-427a-bff7-f50ca998ab74" />
 ]
+### Assignment 2: Data Privacy & Differential Privacy 
+* **Concepts Explored:** Data privacy, Randomized Response mechanisms, Differential Privacy (Laplace noise), and the Privacy-Utility Tradeoff.
+* **Technical Highlights:** Implemented a custom probability-based randomized response mechanism (simulating a card draw) to obfuscate binary employee attrition data while maintaining accurate aggregate estimations. Calculated global sensitivity and injected Laplace noise into categorical counts, proving that dataset utility can be preserved without compromising individual user confidentiality.
 
+### Lab 7: Predictive Modeling & Explainable AI (XAI)
+* **Concepts Explored:** Random Forest Classifiers, Local vs. Global Model Interpretability, and Algorithmic Auditing.
+* **Technical Highlights:** Trained `RandomForestClassifier` models on both the Iris and Pima Indians Diabetes datasets. Implemented **LIME** (Local Interpretable Model-agnostic Explanations) to audit individual prediction logic. Utilized **SHAP** (SHapley Additive exPlanations) to generate waterfall and beeswarm plots, successfully identifying which features (e.g., Glucose, BMI, Age) drove local and global model predictions.
+* **Visuals:** [<img width="976" height="427" alt="image" src="https://github.com/user-attachments/assets/a838af99-ce60-47e3-a8f3-22ec95f605d6" />
+]
 
 
 ---
